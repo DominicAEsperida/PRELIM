@@ -1,0 +1,268 @@
+.indexbdy{
+  background-image: url(https://images.hdqwalls.com/wallpapers/blue-green-gradient-minimal-4k-7x.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Kanit', sans-serif;
+  margin-top: -50px;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 40px;
+  margin-top: 40px;
+  color: white;
+}
+
+h2{
+  text-align: center;
+  font-family: 'Unbounded', sans-serif;
+  font-size: 25px;
+  margin-top: 20px;
+  color: white;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  border: 10px solid green;
+  border-radius: 50%;
+  border-color: green;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: -20px;
+  margin-left: 15px;
+}
+
+.info{
+  width: 400px;
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
+  font-size: 18px;
+  margin-bottom: 40px;
+  background: rgb(255, 255, 255, 0.7);
+  border: 10px solid green;
+  padding: 50px;
+  margin: 20px;
+  box-shadow: 5px 5px 2px darkgreen;
+}
+
+.educ{
+  width: 400px;
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
+  font-size: 18px;
+  margin-bottom: 40px;
+  background: rgb(255, 255, 255, 0.7);
+  border: 10px solid green;
+  padding: 50px;
+  margin: 20px;
+  box-shadow: 5px 5px 2px darkgreen;
+}
+
+.exp{
+  width: 400px;
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
+  font-size: 18px;
+  margin-bottom: 40px;
+  background: rgb(255, 255, 255, 0.7);
+  border: 10px solid green;
+  padding: 50px;
+  margin: 20px;
+  box-shadow: 5px 5px 2px darkgreen;
+}
+
+.info h4{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.educ h4{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.exp h4{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.tbl{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.prog{
+  list-style-type:inherit;
+  margin-top: 20px;
+  margin-left: 110px;
+  text-align: left;
+}
+
+.char{
+  list-style-type: decimal;
+  margin-top: 20px;
+  margin-left: 50px;
+  text-align: left;
+}
+
+.em{
+  text-align: left;
+  list-style-type: none;
+}
+
+.ph{
+  text-align: left;
+  list-style-type: none;
+}
+
+.address{
+  text-align: left;
+  list-style-type: none;
+}
+
+.ch2{
+  margin-top: 10px;
+  margin-left: -40px;
+}
+
+.liwork{
+  text-align: left;
+  margin-left: -10px;
+  list-style-type: decimal;
+}
+
+.worktype{
+  margin-top: 10px;
+  margin-left: 55px;
+  list-style-type:disc;
+}
+
+hr{
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+
+body{
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+form {
+  background: rgb(255, 255, 255, 0.9);
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin: auto;
+  display: inline-block;
+  margin-left: 700px;
+  padding-top: 20px;;
+}
+
+input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: 'Questrial', sans-serif;
+  border: 2px solid gray;
+  margin-left: -10px;
+}
+
+input[type="submit"], input[type="reset"] {
+  width: 49%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'Questrial', sans-serif;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+  background-color: darkgreen;
+}
+
+input[type="reset"] {
+  background-color: #f44336;
+  font-family: 'Questrial', sans-serif;
+}
+
+input[type="reset"]:hover {
+  background-color: darkred;
+}
+
+a {
+  font-size: 16px;
+  margin-top: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color:red;
+}
+
+.links{
+  margin-left: 42px;
+}
+.fb{
+  background-color: blue;
+  border-radius: 50%;
+}
+.gh{
+  background-color: black;
+  border-radius: 50%;
+}
+
+.ig{
+  background-color: rgb(236, 148, 163);
+  border-radius: 50%;
+}
+
+.btn{
+  margin-top: -20px;
+  background-color: blue;
+}
+
+.bdy1{
+  background-image: url(https://images.wallpaperscraft.com/image/single/city_building_skyscraper_166946_3840x2400.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Questrial', sans-serif;
+}
+
+.msg{
+  color: black;
+}
+
